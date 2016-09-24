@@ -1,0 +1,48 @@
+.name {
+
+	width: 37%;
+    height: 71px;
+	margin:10px;
+	background-color: lightblue;
+	border: 1px solid black;
+	border-width: 2px;
+	padding: 15px;
+	border: 1px solid white; 
+	text-align: center;
+	display: block;
+	display: inline-block;
+	font-size: 42px;
+	color: white;
+	font-family: impact;
+
+}
+
+.aboutMe {
+
+	width: 37%;
+    height: 67px;
+	margin:10px;
+	background-color: white;
+	border: 1px solid black;
+	border-width: 2px;
+	padding: 15px;
+	border: 1px solid white; 
+	text-align: center;
+	display: block;
+	display: ;
+	color: white;
+	font-family: skia;
+	font-size: 42px;
+	color: lightblue;
+}
+
+body { 
+
+	background-image: url("http://www.intrawallpaper.com/static/images/City_Landscape_Background_B5hx2zA.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: 135%;
+  }
+
+
+
