@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Home Page</title>
-</head>
-
-	<link rel="stylesheet" type="text/css" href="index.css">
+	<title>Contacts</title>
+	<link rel="stylesheet" type="text/css" href="contacts.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+</head>
 
 
 <body>
 
-
-
+		
+	<header id="masthead">
 		<div class="nameBorder">
 			<section id="name">Alpha De Asis</section>
 		</div>
@@ -37,7 +36,7 @@
 				
 			</div>
 			
-			
+	</header>		
 		
 
 <div class="background">
@@ -45,25 +44,34 @@
 
 		<div class="aboutMe">
 
-			<section id="aboutSection">About Me</section>
+			<section id="aboutSection">Contact</section>
 			
 			<hr id="aboutMe">
 
 		</div>
 
-		<img class="photo" src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAO-AAAAJDZkNjU2OTQxLWUyNTEtNGZkZC04NzQ5LTA4ODEyMjdiNjU0OA.jpg">
+		
+
+
+
+		<div class="form">
+			  <form action="action_page.php">
+			    <label for="fname">Name</label>
+			    <input type="text" id="fname" name="firstname">
+
+			    <label for="lname">Email</label>
+			    <input type="text" id="lname" name="lastname">
 				
-			<p id="para1">
-				Started learning HTML at age of 13. The interest in web design at that age made realize the infinite possibilites a web developer could do on a webpage.  I also went on to study at CSUF upon recieving a scholarship to attend the Classical Guitar Performance Major under David Grimes and Richard Turner.  I also Studied at CSULB with BA and emphasis on education.
+				<label>Message</label>
+			    <textarea></textarea>
+			  
+			    <input type="submit" value="Submit">
+			  </form>
+		</div>
 
-			</p>
 
-			<p id="para2">
+		
 
-				When I was 21 I worked as classical guitar private instructor and also directed choir at PAC for 3 years.  Also worked in the private sector as gaming supervisor and recruiter for 5 years.  But my roots are always in the tech industry.  I am currently attending UCLA extension to study web coding and development.
-
-			</p>
-</div>
 
 		<div class="connectImages">
 			<section>
@@ -95,7 +103,6 @@
 
 
 
-
-
-
-
+</body>
+</head>
+</html>
